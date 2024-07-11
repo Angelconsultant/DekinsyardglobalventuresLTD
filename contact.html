@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De King's Yard Global Venturs LTD</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="image/de kings logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="service.html">SERVICE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <div class="text-box">
+            <h1>Contact Us</h1>
+            <p>Your Premier Real Estate Partner. <br>we believe that real estate is more than just
+                transactions—it's about building a better future.....</p>
+            <a href="blog.html" class="hero-btn">Vist Us To Know More</a>
+        </div>
+
+    </section>
+    <!--------Contact us content---->
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.3323192903845!2d7.04965027376371!3d6.219835193768173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1043836110b3b44b%3A0xda07c249e62e6370!2sChannels%20Suite!5e0!3m2!1sen!2sng!4v1720434742712!5m2!1sen!2sng"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    </section>
+    <section class="cotact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>No, 3 Channel Suites Street, Off </h5>
+                        <p>Ngozika Housing Estate Awka South<br> Anambra State NIG</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+2348122447402<br>+2348038222427<br>+2347083011044 </h5>
+                        <p>Monday to Sarturday, 8AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>dekingsyardglobalventures<br>limit@gmail.com </h5>
+                        <p>Email Us</p>
+
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter email address" required>
+                    <input type="text" name="subject" placeholder="Enter subject" required>
+                    <textarea rows="8" name="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="footer">
+        <h4>Contact Us</h4>
+        <p>Ready to take the next step in your real estate journey?<br>
+            Contact De King's Yard Global Ventures Limited today. Our friendly and knowledgeable<br>
+            team is here to answer your questions and provide the guidance you need.</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+
+        <p>Made with <i class="fa fa-heart-o"></i> By Angel Tech World</p>
+    </section>
+
+
+
+
+
+    <!-- -----javascript---- -->
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
