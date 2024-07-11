@@ -4,7 +4,7 @@ $visitor_email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$email_from = 'http://dekingsyardglobalventures-ltd.vercel.app'
+$email_from = 'https://dekinsyardglobalventures-ltd.vercel.app/'
 
 $email_subject = 'new form submission'
 
